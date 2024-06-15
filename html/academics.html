@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunyanja Pvt Secondary School</title>
+    <link rel="shortcut icon" type="image/png" href="../images/kunyanja.ico">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="../images/kunyanja-pvt-school-high-resolution-logo-white-transparent.png" alt="Kunyanja Pvt Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="academics.html">ACADEMICS</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Kunyanja Pvt Secondary School</h1>
+            <p>Welcome to a place where knowledge meets excellence.</p>
+            <a href="about.html" class="hero-btn">Learn More</a>
+        </div>
+    </section>
+
+    <!-------- Academics content -------->
+
+    <section class="academics-content">
+        <h2>Welcome to Kunyanja Pvt School</h2>
+        <p>Kunyanja Pvt School offers a holistic education from primary to secondary level in beautiful Northern Malawi. Here's what you need to know to apply:</p>
+        <ol>
+            <li><strong>Eligibility:</strong> We welcome students from diverse backgrounds who are committed to academic excellence and personal growth.</li>
+            <li><strong>Application Process:</strong> To apply, please complete the online application form or obtain a physical copy from our school office. Ensure all required documents, such as academic transcripts, birth certificates, and recommendation letters, are submitted along with the application.</li>
+            <li><strong>Admission Criteria:</strong> Admission is based on various factors, including academic performance, character assessment, and potential for contribution to the school community. We prioritize students who demonstrate a passion for learning and embody our school values.</li>
+            <li><strong>Entrance Examinations:</strong> Applicants may be required to sit for entrance examinations to assess their academic abilities. These tests help us determine the appropriate placement within our curriculum.</li>
+            <li><strong>Interviews:</strong> Shortlisted candidates will be invited for interviews with our admissions committee. This is an opportunity for us to learn more about each student and their aspirations.</li>
+            <li><strong>Fees and Scholarships:</strong> Details regarding tuition fees, payment options, and available scholarships can be found on our website or obtained from the admissions office. We strive to make quality education accessible to deserving students through our scholarship programs.</li>
+            <li><strong>Important Dates:</strong> Stay updated on application deadlines, examination dates, and admission notifications by checking our website regularly or contacting our admissions team.</li>
+        </ol>
+    </section>
+
+    <!-- Application Form -->
+
+    <section class="container">
+        <header>Registration Form</header>
+        <form action="mailto:knnjprvtschdrsch@gmail.com" method="post" enctype="application/x-www-form-urlencoded" class="form">
+          <div class="input-box">
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter full name" required />
+          </div>
+          <div class="input-box">
+            <label>Email Address</label>
+            <input type="email" placeholder="Enter email address" required />
+          </div>
+          <div class="column">
+            <div class="input-box">
+              <label>Phone Number</label>
+              <input type="tel" placeholder="Enter phone number" required />
+            </div>
+            <div class="input-box">
+              <label>Birth Date</label>
+              <input type="date" required />
+            </div>
+          </div>
+          <div class="gender-box">
+            <h3>Gender</h3>
+            <div class="gender-option">
+              <div class="gender">
+                <input type="radio" id="check-male" name="gender" checked />
+                <label for="check-male">Male</label>
+              </div>
+              <div class="gender">
+                <input type="radio" id="check-female" name="gender" />
+                <label for="check-female">Female</label>
+              </div>
+              <div class="gender">
+                <input type="radio" id="check-other" name="gender" />
+                <label for="check-other">Prefer not to say</label>
+              </div>
+            </div>
+          </div>
+          <div class="input-box address">
+            <label>Address</label>
+            <input type="text" placeholder="Enter street address" required />
+            <input type="text" placeholder="Enter street address line 2" />
+            <div class="column">
+              <div class="select-box">
+                <select required>
+                  <option hidden>Country</option>
+                  <option>Malawi</option>
+                  <option>Zambia</option>
+                  <option>Tanzania</option>
+                  <option>Mozambique</option>
+                  <option>Kenya</option>
+                  <option>Ugandas</option>
+                  <option>America</option>
+                  <option>Japan</option>
+                  <option>India</option>
+                  <option>Nepal</option>
+                </select>
+              </div>
+              <input type="text" placeholder="Enter your city" required />
+            </div>
+            <div class="column">
+              <input type="text" placeholder="Enter your region" required />
+              <input type="number" placeholder="Enter postal code" required />
+            </div>
+            <div class="input-box">
+                <label for="additionalInfo">Additional Information:</label>
+                <textarea id="additionalInfo" name="additionalInfo" rows="4" cols="50" placeholder="Enter any additional information here..." aria-label="Additional Information"></textarea>
+            </div>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!------- Footer ------->
+
+    <section class="footer">
+        <div class="footer-content">
+            <div class="footer-section address">
+                <h3>Kunyanja Pvt School</h3>
+                <p>Mkandira village,<br>
+                    P.O. Box 66,<br> 
+                    Nkhata-Bay District,<br> 
+                    Malawi.<br><br>
+                    <strong>Phone:</strong> +265 884 24 19 86<br>
+                    <strong>Email:</strong> knnjprvtschdrsch@gmail.com<br>
+                </p>
+            </div>
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="academics.html">ACADEMICS</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social">
+                <h3>Follow Us</h3>
+                <ul class="socials">
+                  <li><i class="fa-brands fa-facebook"><a href="https://www.facebook.com/people/Kunyanja-PVT-Secondary-School/100063464889946/"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Kunyanja Pvt School. All rights reserved.</p>
+        </div>
+    </section>
+
+<!--------JavaScript for toggle menu------>
+<script src="../js/script.js"></script>    
+    
+</body>
+</html>

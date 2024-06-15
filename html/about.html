@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunyanja Pvt Secondary School</title>
+    <link rel="shortcut icon" type="image/png" href="../images/kunyanja.ico">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="../images/kunyanja-pvt-school-high-resolution-logo-white-transparent.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="academics.html">ACADEMICS</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+<!------- About us content -------->
+
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>Who we are</h1>
+            <p>Kunyanja Private School: established in 2007, is a prominent private educational institute based in Nkhata-Bay, Malawi. 
+                We pride ourselves in providing an outstanding educational experience to students. Our strong reputation for academic 
+                excellence is built through continuous delivery of high-quality education over a decade.</p>
+            <p>Our story: All secondary education in Malawi is fee paying. 17 years ago, with no support or resources, three teachers, 
+                <em>Sydney Simumba, Feston Singoyi and John Chaula</em> were teaching children in the crumbling rooms of a local mosque.</p>
+            <p>Today, Kunyanja Private School thrives in a lovely area of Northern Malawi. Starting from a small room with a few children and benches, 
+                it has grown to accommodate over 500 students on a site given by the community. The school's beautiful buildings were constructed by locals 
+                with support from many individuals in the UK, including Masambiro. Despite facing tough daily challenges, the dedicated staff and students have made it a great place to learn. 
+                Despite ongoing difficulties, the school continues to progress and improve.
+            </p>
+            <p>We believe that every child deserves the opportunity to thrive and succeed in their academic pursuits, thus we offers a comprehensive curriculum 
+                that is best suited for each student. Moreover, our dedicated faculty and staff are committed to creating a nurturing and supportive environment 
+                where students feel empowered to take risks and pursue their passions.</p>
+            <p>The school bursary scheme: Kunyanja Private School, acknowledged as a non-profit in 2011 by the District Education Authority, is dedicated to providing 
+                quality education to all children. Each year, more than 100 children receive financial support for their school fees through a bursary program. 
+                This support is made possible by Masambiro in the UK. These students typically come from orphaned backgrounds or families with unstable incomes, 
+                making it difficult to afford private school education.</p>
+        </div>
+        <div class="about-col">
+            <img src="../images/teachers.jpg" alt="Teachers">
+            <img src="../images/the boys.jpg" alt="Boys">
+            <img src="../images/about us 1.jpg" alt="Girls">
+        </div>
+    </div>
+
+</section>
+
+<!------- Footer ------->
+
+<section class="footer">
+    <div class="footer-content">
+        <div class="footer-section address">
+            <h3>Kunyanja Pvt School</h3>
+            <p>Mkandira village,<br>
+                P.O. Box 66,<br> 
+                Nkhata-Bay District,<br> 
+                Malawi.<br><br>
+                <strong>Phone:</strong> +265 884 24 19 86<br>
+                <strong>Email:</strong> knnjprvtschdrsch@gmail.com<br>
+            </p>
+        </div>
+        <div class="footer-section links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="academics.html">ACADEMICS</a></li>
+                <li><a href="events.html">EVENTS</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+        <div class="footer-section social">
+            <h3>Follow Us</h3>
+                <ul class="socials">
+                <li><i class="fa-brands fa-facebook"><a href="https://www.facebook.com/people/Kunyanja-PVT-Secondary-School/100063464889946/"></i></a></li>
+                </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Kunyanja Pvt School. All rights reserved.</p>
+    </div>
+
+</section>
+
+<!--------JavaScript for toggle menu------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>    
+    
+</body>
+</html>

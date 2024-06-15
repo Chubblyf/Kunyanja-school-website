@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunyanja Pvt Secondary School</title>
+    <link rel="shortcut icon" type="image/png" href="../images/kunyanja.ico">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="../images/kunyanja pvt logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="academics.html">ACADEMICS</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>EVENTS</h1>
+    </section>
+
+
+
+<!------- Footer ------->
+
+<section class="footer">
+    <div class="footer-content">
+        <div class="footer-section address">
+            <h3>Kunyanja Pvt School</h3>
+            <p>Mkandira village,<br>
+                P.O. Box 66,<br> 
+                Nkhata-Bay District,<br> 
+                Malawi.<br><br>
+                <strong>Phone:</strong> +265 884 24 19 86<br>
+                <strong>Email:</strong> knnjprvtschdrsch@gmail.com<br>
+            </p>
+        </div>
+        <div class="footer-section links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="academics.html">ACADEMICS</a></li>
+                <li><a href="events.html">EVENTS</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+        <div class="footer-section social">
+            <h3>Follow Us</h3>
+                <ul class="socials">
+                <li><i class="fa-brands fa-facebook"><a href="https://www.facebook.com/people/Kunyanja-PVT-Secondary-School/100063464889946/"> Facebook</i></a></li>
+                </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Kunyanja Pvt School. All rights reserved.</p>
+    </div>
+
+</section>
+
+<!--------JavaScript for toggle menu------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>    
+    
+</body>
+</html>
